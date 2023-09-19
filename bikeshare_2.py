@@ -155,7 +155,6 @@ def user_stats(df):
     if 'Gender' in df.columns.tolist():
         print("Count of Gender: ",'\n',df['Gender'].value_counts())
 
-
     # Display earliest, most recent, and most common year of birth
         print("The earliest, most recent and most common years of birth are {}, {} and {} respectively."
             .format(int(df['Birth Year'].min()), int(df['Birth Year'].max()), int(df['Birth Year'].mode()[0])))
@@ -183,6 +182,7 @@ def display_raw_data(df):
         else:
             break
 
+
 def main():
     while True:
         city, month, day = get_filters()
@@ -197,7 +197,6 @@ def main():
         restart = input('\nWould you like to restart the Data Exploration? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
-
 
 if __name__ == "__main__":
 	main()
