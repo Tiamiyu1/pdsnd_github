@@ -16,6 +16,5 @@ The data provided by Motivate:
 - `washington.csv`
 
 ### Credits
-- Thanks to the Udacity team for this wonderful Nanodegree!
-- Thanks to the Access Bank Group for sponsoring this!
+- Thanks to the Udacity team for this wonderful Nanodegree and Access Bank Group for sponsoring this!
 
